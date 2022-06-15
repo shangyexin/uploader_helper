@@ -1,0 +1,15 @@
+# 原始剪辑完成视频目录
+origin_media_path: "E:\HDTV\剪完未分类"
+
+# 视频匹配信息
+media_info:
+  - name: "优雅的母女" # 剧集名称
+    match_keywords: [ "J2","Gracious Revenge" ] #匹配关键词，多个关键词为与的关系
+    target_media_name: "[优雅的母女].J2.Gracious.Revenge.2019.Ep{}.HDTV.1080i.H264.DD2.0-CMCTV.ts" # 目标文件名
+    max_episodes_length: 3 # 最大集数长度
+    target_media_path: "E:\HDTV\[优雅的母女]Gracious.Revenge" # 读取当前目录最后一集文件名+1，生成新的文件名
+  - name: "淘金" # 剧集名称
+    match_keywords: [ "RTHK31","Gold_Panning" ] #匹配关键词，多个关键词为与的关系
+    target_media_name: "[淘金].RTHK31.Gold.Panning.2022.S01.Ep{}.HDTV.1080i.H264.DD2.0-CMCTV.ts" # 目标文件名
+    max_episodes_length: 3 # 最大集数长度
+    target_media_path: "E:\HDTV\[淘金]Gold.Panning" # 读取当前目录最后一集文件名+1，生成新的文件名
